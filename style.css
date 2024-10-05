@@ -1,0 +1,83 @@
+.root{
+    --main-blue:rgb(35, 35, 224);
+}
+header {
+    background-color: #f0f0f0;
+    width: 75%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px ;
+}
+.logo{
+    text-decoration: none;
+    color: #3a6cf4;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navigation a{
+    color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+}
+.navigation a:hover{
+    color: #601cfc;
+}
+body{
+    background-color: #b0b3b9;
+
+}
+section.main{
+    background-image: url(SD.png);
+    background-size: 1000px 400px ;
+    padding: 50px;
+    
+    color:aliceblue;
+  }
+  span{
+    color:#4978ee;
+  }
+  a{
+    color:#f0f0f0;
+  }
+  button{
+    background-color: #3a6cf4;
+    border-radius: 20px;
+    font-size: large; 
+ }
+section.cards{
+    color:var(--main-blue);
+ }
+ h2{
+    display: flex;
+    justify-content: center;
+    font-weight: 800;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+ }
+ .content{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+ }
+ .card{
+    background-color: #fff;
+    width:21.25em;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    box-shadow: 0 5px 25px black;
+    }
+ .card:hover{
+    transform: scale(1.1);
+ }
+ .icon{
+    color:var(--main-blue);
+    font-size: 8em;
+    text-align: center;
+ }
